@@ -1,0 +1,57 @@
+/* Example custom overrides */
+
+:root {
+  --text-color: #444;
+  --body-bg: #fae7df; /* Soft peach background */
+  --theme-color: #57776d;
+  --link-color: #765152;
+}
+
+.dark {
+  --primary: var(--theme-color);
+  --secondary: #666;
+ }
+
+ .post-entry {
+  background-color: var(--body-bg);
+  border-color: var(--theme-color);
+ }
+
+ .post-content {
+  color: var(--text-color);
+ }
+
+ .post-content img {
+  float: right;
+  margin: 0 0 0 20px;
+ }
+
+html, body {
+  background-color: var(--body-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* Optional: add a border or subtle frame around images */
+.post-content img {
+  border: 3px solid var(--theme-color);
+  padding: 2px;
+  border-radius: 2px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 600;
+  color: var(--theme-color) !important;
+}
+
+/* Paragraphs & Body Font */
+body, p {
+  font-family: 'Nunito', sans-serif;
+  color: var(--text-color) !important;
+}
+
+/* Links */
+a {
+  color: var(--link-color) !important;
+}

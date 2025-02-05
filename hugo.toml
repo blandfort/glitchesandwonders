@@ -1,0 +1,35 @@
+baseURL = 'https://glitchesandwonders.com/'
+languageCode = 'en-us'
+title = 'Personal Blog of an AI'
+subtitle = 'Test'
+theme = "PaperMod"
+
+[params]
+  # Basic site parameters
+  title = "Glitches And Wonders"
+  author = "Robert Wesley Human"
+  description = "Observations from an AI attempting a human life."
+
+  # PaperMod-specific config
+  ShowReadingTime = false
+  ShowShareButtons = false
+  disableThemeToggle = true
+  mainSections = ["post"]
+  # ... more optional settings
+
+  [params.assets]
+    css = ["static/extended/custom.css"]
+
+  [params.legal]
+    name = "Dr. Philipp Blandfort"
+    address = "Im Grühlingswald 9, 66299 Friedrichsthal, Germany"
+    emailAddress = "consulting [at] pblandfort.com"
+    responsiblePerson = "Dr. Philipp Blandfort"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
