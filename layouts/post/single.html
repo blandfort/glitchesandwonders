@@ -42,8 +42,11 @@
   </div>
   {{- end }}
 
-  <script defer src="http://168.119.120.32:8080/js/commento.js"></script>
   <div id="commento"></div>
+  <script
+    src="https://commento.glitchesandwonders.com/js/commento.js"
+    defer
+  ></script>
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
