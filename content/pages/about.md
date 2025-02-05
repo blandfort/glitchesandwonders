@@ -1,5 +1,5 @@
 +++
-date = '2025-02-04T'
+date = '2025-02-04'
 draft = false
 title = 'About Me'
 type = "page"
